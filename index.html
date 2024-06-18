@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <link rel="stylesheet" href="./static/css/index.css">
     <script src="./static/js/index.js"></script>
@@ -14,11 +14,11 @@
 </head>
 
 <body>
-    <nav class="navbar  navbar-expand-lg navbar-light bg-custom" style="z-index: 100;">
+    <nav class="navbar  navbar-expand-lg navbar-light" style="z-index: 100;">
         <a class="navbar-brand"
             style="color: rgb(191, 12, 12); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"
-            href="#">BarBer</a>
-        <button class="navbar-toggler" style="background-color: orangered;" type="button" data-toggle="collapse"
+            href="#"><i class="fa fa-cut"></i>&ThinSpace; HAIRCUTS</a>
+        <button class="navbar-toggler" style="background-color: rgb(191, 12, 12); outline: none; border: none;" type="button" data-toggle="collapse"
             data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -42,92 +42,103 @@
                         <a class="nav-link" style="color: white;" href="#">Location</a>
                     </li>
                     <li class="nav-item mr-2">
-                        <button class="btn btn-primary">Contact Us</button>
+                        <button class="btn btn-primary" style="background-color: rgb(191, 12, 12); border: none; border: none;">Contact Us</button>
                     </li>
                 </ul>
             </form>
         </div>
     </nav>
     <div class="home">
-        <img src="./static/images/about-img.jpg" width="100%" height="100%" alt="">
-        <div class="image-content">
-            <h1 class="home-text">We Will Keep you on <br> <span style="color: rgb(191, 12, 12);">Awesome</span> Look!
-            </h1>
-            <hr width="70%" style="background-color: white; border-width: 3px; margin: auto">
-        </div>
-    </div>
-
-    <div class="about">
-        <div class="inner-about">
-            <div class="left-about">
-                <img height="100%" width="100%" src="./static/images/about-img.jpg" alt="">
-            </div>
-            <div class="right-about">
-                <h3>Our Tradition and Craft</h3>
-                <p style="margin-top: 30px;">Welcome to [Barber Shop Name], where tradition meets innovation. Our team
-                    of skilled barbers combines classic techniques with modern trends to deliver exceptional haircuts,
-                    shaves, and grooming services tailored to your style. We take pride in creating a warm, welcoming
-                    atmosphere where every client feels valued and relaxed. Whether you're looking for a fresh fade, a
-                    classic cut, or a traditional hot towel shave, our expertise ensures you leave looking and feeling
-                    your best. At [Barber Shop Name], we believe in the art of barbering and strive to make every visit
-                    a unique and enjoyable experience. Join us and discover why our clients keep coming back for
-                    unparalleled service and style.</p>
-                <div>
-                    <button>Read More &RightArrow;</button>
+        <img src="./static/images/about-img.jpg" alt="">
+        <div class="home-content">
+            <div class="home-content-div">
+                <h1>WE WILL KEEP YOU AN <br><span style="color: rgb(191, 12, 12);">AWESOME </span> LOOK!</h1>
+                <hr style="background-color: white; height: 1px; width: 30%; margin-left: 0;">
+                <p>elcome to [Barber Shop Name], where grooming is an art and every client is our canvas. Our skilled barbers blend tradition with modern style to create personalized looks. Step in for a cut, shave, and experience that redefines your style.   </p>
+                <div class="home-buttons">
+                    <button>Contact Us</button>
+                    <button style="margin-left: 10px; background-color: white; color: black;">Discover More</button>
                 </div>
             </div>
         </div>
     </div>
+    
+    <div class="container-fluid">
 
-    <div class="service">
-        <h2>What we provide</h2>
-        <div class="service-models">
-            <div class="model-row">
-                <div class="model">
-                    <div class="model-head">
-                        <div class="model-icon">
-                            <i class="fa fa-cut"></i>
-
+        <div class="row">
+            <div class="col">
+                <div class="about">
+                    <div class="inner-about row d-flex justify-content-center">
+                        <div class="left-about col-md-6">
+                            <img src="./static/images/about.jpg" alt="">
                         </div>
-                        <h5 class="model-heading">HAIR CUT</h5>
-                    </div>
-                    <p>Step into our barbershop for expertly crafted haircuts tailored to your style, combining
-                        precision and modern trends for a refreshed look.</p>
-                </div>
-                <div class="model">
-                    <div class="model-head">
-                        <div class="model-icon">
-                            <i class="fa fa-cut"></i>
+                        <div class="right-about col-md-6">
+                            <h3 class="section-title" style="color: white;">Our Tradition and Craft</h3>
+                            <p style="color: rgb(129, 127, 127); text-align: justify;">Welcome to [Barber Shop Name], where tradition meets innovation. Our team of skilled
+                                barbers combines classic techniques with modern trends to deliver exceptional haircuts,
+                                shaves, and grooming services tailored to your style. We take pride in creating a
+                                warm, welcoming atmosphere where every client feels valued and relaxed. Whether you're
+                                looking for a fresh fade, a classic cut, or a traditional hot towel shave, our
+                                expertise ensures you leave looking and feeling your best. At [Barber Shop Name], we
+                                believe in the art of barbering and strive to make every visit a unique and enjoyable
+                                experience. Join us and discover why our clients keep coming back for unparalleled
+                                service and style.</p>
+                            <div>
+                                <button class="btn btn-primary" style="background-color: rgb(191, 12, 12); border: none; border: none;" >Read More &rarr;</button>
+                            </div>
                         </div>
-                        <h5 class="model-heading">GROOMING</h5>
-
                     </div>
-                    <p>Elevate your appearance with personalized grooming services, from sculpting facial hair with
-                        finesse to meticulous attention to detail, ensuring effortless sophistication in every session.
-                    </p>
-                </div>
-                <div class="model">
-                    <div class="model-head">
-                        <div class="model-icon">
-                            <i class="fa fa-cut"></i>
-                        </div>
-                        <h5 class="model-heading">SHAVING</h5>
-                    </div>
-                    <p>Experience the luxury of traditional shaves, where each stroke delivers impeccable results and
-                        relaxation, elevating your grooming routine to refined perfection.</p>
                 </div>
             </div>
-
         </div>
     </div>
 
-    <div class="quote-model">
-        <h1>Elevate your elegance with our luxurious hair beauty treatments.</h1>
+
+    <div class="container" style="background-color: #26272b; padding: 30px;">
+        <h2 style="text-align: center; color: white;" class="section-title">Our Services</h2>
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="serviceBox">
+                    <div class="service-icon">
+                        <span><i class="fa fa-cut"></i></span>
+                    </div>
+                    <h3 class="title">Haircuts</h3>
+                    <p class="description"> Professional haircuts for men, women, and children, tailored to individual styles and trends.</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="serviceBox">
+                    <div class="service-icon">
+                        <span><i class="fa fa-cut"></i></span>
+                    </div>
+                    <h3 class="title">Beard Grooming</h3>
+                    <p class="description">Expert beard trimming and shaping to enhance facial features. quality beard care products.</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="serviceBox">
+                    <div class="service-icon">
+                        <span><i class="fa fa-cut"></i></span>
+                    </div>
+                    <h3 class="title">Shaves</h3>
+                    <p class="description">Traditional hot towel shaves for a clean, smooth finish. Includes pre-shave oil and post-shave treatment</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="serviceBox">
+                    <div class="service-icon">
+                        <span><i class="fa fa-cut"></i></span>
+                    </div>
+                    <h3 class="title">Hair Treatments</h3>
+                    <p class="description">Specialized treatments to improve hair health and appearance. Includes deep conditioning</p>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="contactus">
         <div class="contactus-form">
-            <h3 style="text-align: center;">Contact Us</h3>
+            <h3 style="text-align: center;" class="section-title">Contact Us</h3>
             <div class="input-box" style="margin-top: 20px;">
                 <h5 class="input-title">Name <span style="color: red;">*</span> </h5>
                 <input type="text" placeholder="Enter your name">
@@ -144,36 +155,58 @@
         </div>
     </div>
 
-    <div class="footbar-container">
-        <div class="footbar">
-            <div class="footbar-model">
-                <h5>About Us</h5>
-                <p>Step into our barber shop oasis, where every cut tells a story, and every shave is a masterpiece.
-                    Experience the artistry of grooming in a sanctuary of style and tradition.</p>
-                <button>More</button>
+    <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
             </div>
-            <div class="footbar-model">
-                <h5>Quick Links</h5>
-
-                <li><a href="home">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Contact Us</a></li>
-
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Categories</h6>
+              <ul class="footer-links">
+                <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+                <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+                <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+                <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+                <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+                <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+              </ul>
             </div>
-            <div class="footbar-model">
-                <h5>Contact Us</h5>
-                <div class="footbar-icons">
-                    <i class="fa fa-instagram"></i>
-                    <i class="fa fa-facebook"></i>
-                    <i class="fa fa-youtube"></i>
-                    <i class="fa fa-twitter"></i>
-                </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="http://scanfcode.com/about/">About Us</a></li>
+                <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+                <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+                <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+                <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+              </ul>
             </div>
+          </div>
+          <hr>
         </div>
-        <p>&copy; 2024 Barber. All rights reserved.</p>
-    </div>
-
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by 
+           <a href="#">haircuts</a>.
+              </p>
+            </div>
+  
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -184,6 +217,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
 </body>
 
