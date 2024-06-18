@@ -1,0 +1,295 @@
+body
+{
+    background-color: white;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar
+{
+    position: fixed;
+    width: 100%;
+}
+
+.home
+{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+
+.home img
+{
+    filter: brightness(40%);
+}
+
+.image-content
+{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+}
+
+.bg-custom
+{
+    
+}
+
+.home-text
+{
+    width: 70%;
+    color: rgb(198, 196, 196);
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: Impact;
+    text-align: left;
+    margin: auto;
+}
+
+.about
+{
+    padding: 5%;
+}
+
+.inner-about
+{
+    height: 70vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.about .left-about
+{
+    height: 100%;
+    width: 45%;
+    margin: 5%;
+}
+
+.about .right-about
+{
+    height: 100%;
+    width: 45%;
+    margin: 5%;
+}
+
+.right-about button
+{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(191, 12, 12);;
+    border: none;
+    margin-top: 20px;
+    color: white;
+    border-radius: 2px;
+}
+
+.right-about h3
+{
+    color: black;
+}
+
+.service {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.service h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.service-models {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+
+.model-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.model {
+    height: 35vh;
+    width: 25%;
+    background-color: rgb(69, 69, 70);
+    margin: 2%;
+    border-radius: 2px;
+}
+.model-head
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.model .model-icon
+{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(191, 12, 12);
+}
+
+.model-icon i
+{
+    font-size: 40px;
+    color: white;
+}
+
+.model p
+{
+    width: 90%;
+    margin: auto;
+}
+
+.quote-model
+{
+    height: 70px;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+}
+
+.quote-model h1
+{
+    font-size: 25px;
+}
+
+.contactus
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(226, 227, 227);
+}
+
+.contactus-form
+{
+    width: 50%;
+    background-color: white;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.input-box
+{
+    padding: 10px;
+    border: 2px solid rgb(156, 155, 155);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.input-box .input-title
+{
+    font-size: 15px;
+}
+
+.input-box input, .input-box textarea
+{
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.contactus-form button
+{
+    width: 100%;
+    border-radius: 30px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: rgb(191, 12, 12);
+    color: white;
+}
+
+.footbar-container
+{
+    background-color: rgb(198, 196, 196);
+    padding: 30px;
+}
+
+.footbar
+{
+    width: 100%;
+    background-color: rgb(198, 196, 196);
+    display: flex;
+    justify-content: center;
+    
+}
+.footbar-model
+{
+    width: 33%;
+}
+
+.footbar-model p{
+    width: 80%;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.footbar li
+{
+    list-style: none;
+    margin-top: 5px;
+}
+
+.footbar li a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.footbar button
+{
+    width: 150px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: rgb(191, 12, 12);
+    color: white;
+    border-radius: 2px;
+}
+
+.footbar-icons
+{
+    padding: 5px;
+}
+
+.footbar-icons i
+{
+    margin: 10px;
+    font-size: 25px;
+}
